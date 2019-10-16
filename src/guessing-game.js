@@ -1,8 +1,14 @@
 class GuessingGame {
-    min = 0;
-    max = 0;
-    average = 0;
+    min;
+    max;
+    average;
 
+    constructor() {
+        this.min = 0;
+        this.max = 0;
+        this.average = 0;
+    }
+ 
     setRange(min, max) {
         this.min = min;
         this.max = max;

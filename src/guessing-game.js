@@ -1,5 +1,4 @@
 class GuessingGame {
-    constructor() {}
     min = 0;
     max = 0;
     average = 0;
